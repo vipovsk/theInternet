@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/������ ������/IdeaProjects/theInternet">
+        <classes>
+            <class name="dropdown.DropDown">
+                <methods>
+                    <include name="testSelectOptiob"/>
+                </methods>
+            </class>
+            <class name="dynamicloading.DynamicLoadingTest">
+                <methods>
+                    <include name="testHiddenElement"/>
+                    <include name="testElementRenderedAfterLoading"/>
+                </methods>
+            </class>
+            <class name="fileupload.FileUploadTest">
+                <methods>
+                    <include name="testUploadFile"/>
+                </methods>
+            </class>
+            <class name="forgotpw.ForgotPasswordTest">
+                <methods>
+                    <include name="test500Errors"/>
+                </methods>
+            </class>
+            <class name="frames.NestedFramesTest">
+                <methods>
+                    <include name="testMiddleFrameText"/>
+                    <include name="testBottomText"/>
+                </methods>
+            </class>
+            <class name="frames.WYSIWYGTest">
+                <methods>
+                    <include name="testWysiwyg"/>
+                </methods>
+            </class>
+            <class name="horizontalslider.HorizontalSliderTest">
+                <methods>
+                    <include name="testSlider"/>
+                </methods>
+            </class>
+            <class name="hovers.HoverTests">
+                <methods>
+                    <include name="hoverTests"/>
+                </methods>
+            </class>
+            <class name="infinitescroll.InfiniteScrollTest">
+                <methods>
+                    <include name="testScroll"/>
+                </methods>
+            </class>
+            <class name="javascriptalerts.JSAlertsTest">
+                <methods>
+                    <include name="testAlert"/>
+                    <include name="testConfirmText"/>
+                    <include name="testConfirmOk"/>
+                    <include name="testConfirmCancel"/>
+                    <include name="testPromptSetText"/>
+                    <include name="testPromptAcceptNull"/>
+                    <include name="testPromptCancelNull"/>
+                    <include name="testPromptCancelWithInput"/>
+                </methods>
+            </class>
+            <class name="js.JavaScriptTest">
+                <methods>
+                    <include name="testScroll"/>
+                </methods>
+            </class>
+            <class name="keypresses.KeyPressesTests">
+                <methods>
+                    <include name="testkeypresses"/>
+                    <include name="testbackspace"/>
+                    <include name="testbackchord"/>
+                </methods>
+            </class>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+            <class name="modal.ModalTest">
+                <methods>
+                    <include name="testModal"/>
+                </methods>
+            </class>
+            <class name="navigation.NavigationTest">
+                <methods>
+                    <include name="testNavigation"/>
+                    <include name="testMultipleWindows"/>
+                    <include name="testSwitchBetweenWindows"/>
+                </methods>
+            </class>
+            <class name="shiftingcontent.ShiftingContentTest">
+                <methods>
+                    <include name="testMenusCount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
